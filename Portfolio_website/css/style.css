@@ -1,0 +1,87 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(18,18,62);
+}
+.navbar-brand{
+    font-size: 45px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.firstSection div{
+    color: white;
+    font-size: 35px;
+}
+.purple, #element{
+    color: rgb(170, 107, 338);
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px, 84px;
+}
+.fa-solid{
+    color: black;
+}
+.development p, 
+.cloud p, 
+.award p, 
+.customization p, 
+.planning p, 
+.support p{
+    font-size: 16px;
+    color: white;
+}
+.jackpot{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+/* for-sm */
+@media (max-width: 768px){
+    .jackpot{
+    font-size: 8vw; 
+    }
+}
+.jackpot-text{
+    font-size: 16px;
+    color: white;
+}
+.development h5,
+.cloud h5,
+.award h5,
+.customization h5,
+.planning h5,
+.support h5, .card-header h5{
+    font-size: 30px;
+    color: #a9ca14;
+    font-weight: 600;
+}
+.card-header p{
+    font-size: 60px;
+    color: #242f51;
+    font-weight: 600;
+}
+.card-header span{
+    font-size: 18px;
+}
+.card-header h6, .card-body h6{
+    font-size: 16px;
+}
+.card-header span, .card-header h6,.card-body h6{
+    color: #999ca5;
+    font-weight: 400;
+}
+
+.contact{
+    color: white;
+    font-size: 18px;
+}

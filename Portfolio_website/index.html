@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7959309f9d.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <header class="header"> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+                <a class="navbar-brand" href="index.html">SUPRIYA CHILLARGE</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active " href="index.html">Home</a>
+                      <a href="index.html"><i class="fa-solid fa-home fa-2x mr-5"></i></a> 
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                      <a href="about.html"><i class="fa-solid fa-address-card fa-2x mr-5"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="project.html">Project</a>
+                      <a href="project.html"><i class="fa-solid fa-diagram-project fa-2x mr-5"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a href="contact.html"><i class="fa-solid fa-address-book fa-2x mr-5"></i></a>
+                    </li>
+                  </ul>
+                </div>
+
+              </nav>
+    </header>
+    <div class="container">
+      <main>
+        <section class="firstSection">
+          <div class="row py-5">
+            <div class="col-md-6">
+              <div>Hi, My name is <span class="purple"> Supriya </span></div>
+              <div>I am a Passionate</div>
+              <span id="element"> </span>
+            </div>
+            <div class="col-md-6">
+              <img src="./assets/images/myImage.jpg" alt="" srcset="" class="img-fluid w-50 ">
+            </div>
+          </div>
+        </section>
+        <hr>
+      </main>
+
+      <section class="index my-5">
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0" >
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 30px;">
+                  Web Development Basics
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body" style="font-size: 20px;">
+                To get started in web development, we need to understand some basic concepts. Start by learning about HTML, CSS, and JavaScript.
+                <hr>
+                Website development is the process of designing, building, and maintaining a website. Websites are essential for businesses of all sizes to connect with customers and build a brand. There are many different types of website development, including web design, web development, and online marketing.
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-size: 30px;">
+                  What is  HTML, CSS and Javascript?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body" style="font-size: 20px;">
+                HTML is the foundation of all websites. It's a simple markup language that allows you to style your website's content and structure. You can use HTML to create pages with text, photos, videos, and embedded objects
+                <hr>
+                CSS is a powerful tool for styling your website's text , images , and video . You can use CSS to change the color, size, and layout of your website's elements.
+                <hr>
+                JavaScript is a programming language that you can use to create interactivity in your websites. You can use JavaScript to add buttons, menus, pop-ups, and other features to your website.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-size: 30px;">
+                  What is a web server?
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body" style="font-size: 20px;">
+                We need to learn about web servers. A web server is the computer system on which your website lives. It provides the necessary hardware (like an Internet connection) and software (like HTML5) for you to create and access your website.
+                <hr>
+                A web server connects to the Internet and supports physical data interchange with other devices connected to the web. On the software side, a web server includes several parts that control how web users access hosted files. At a minimum, this is an HTTP server.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      
+     
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
